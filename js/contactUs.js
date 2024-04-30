@@ -41,7 +41,8 @@ let ageRegex = /^\d+$/;
       userDataList.push(newUser);
       localStorage.setItem("userData", JSON.stringify(userDataList));
     } else {
-      alert("please enter the correct information");
+      buttonSignUp.setAttribute("disabled", "")
+
     }
   }
 
