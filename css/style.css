@@ -12,7 +12,12 @@ section #sidebar {
   -o-transition: left 1s; 
 }
 
-  #offcanvasScrolling{
+section #sidebar a:focus
+{
+border: none;
+}
+
+ #offcanvasScrolling{
      width: 16rem;
  transition: all 1s !important;
  -webkit-transition: all 1s !important;
@@ -35,6 +40,14 @@ section #hidden-sideBar .hidden-links .links {
   
 }
 
+section #hidden-sideBar .hidden-links .links li {
+  line-height: 1.5;
+  transition:all 1s;
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -ms-transition:all 1s;
+  -o-transition:all 1s;
+}
 
 /* =======================================ContactUs================================================================== */
 .form-text-name {

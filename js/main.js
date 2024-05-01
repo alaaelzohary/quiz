@@ -22,7 +22,7 @@ menuIcon.addEventListener("click", function () {
   sideBar.style.left = "15.5rem";
   menuIcon.classList.replace("d-block", "d-none");
   closeIcon.classList.replace("d-none", "d-block");
-  list.classList.replace("animate__fadeOutBottomLeft", "animate__fadeInUp");
+  // list.classList.replace("animate__fadeOutBottomLeft", "animate__fadeInUp");
  
   
 });
@@ -34,7 +34,7 @@ if(closeIcon !== null){
     hiddenSideBar.style.left = " 0rem";
     menuIcon.classList.replace("d-none", "d-block");
     closeIcon.classList.replace("d-block", "d-none");
-    list.classList.replace("animate__fadeInUp","animate__fadeOutBottomLeft");
+    // list.classList.replace("animate__fadeInUp","animate__fadeOutBottomLeft");
     // listLi.classList.replace("animate__fadeInUp","animate__fadeOutBottomLeft");
   
 }); 
